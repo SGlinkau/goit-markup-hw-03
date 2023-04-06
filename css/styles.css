@@ -1,3 +1,4 @@
+/* =====FORMAL STUFF===== */
 :root{
   --brand-color: #2196F3;
   --default-text-color: #212121;
@@ -5,10 +6,47 @@
   --basic-white: #FFFFFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--default-text-color);
   font-weight: 500;
+}
+
+.container {
+  width: 1200px;
+}
+
+.menu {
+  display: flex;
+  padding: 24px 0px 25px 0px;
+  border-bottom: 1px solid #ececec;
+}
+
+.navigation,
+.contacts {
+  padding: 8px 0 6px 0px;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.navigation ul {
+  display: flex;
 }
 
 .logo{
@@ -27,11 +65,7 @@ body {
 }
 
 .logo-accent-white{
-  color: white;
-}
-
-.menu ul{
-  list-style: none;
+  color: var(--basic-white);
 }
 
 .navigation-link {
@@ -43,6 +77,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.navigation-link {
+  margin-right: 46px;
+}
+
 .navigation-link:hover,
 .navigation-link:focus {
   text-decoration: none;
@@ -51,6 +89,10 @@ body {
   font-size: 14px;  
   line-height: 1.142;
   letter-spacing: 0.02em;  
+}
+
+.contacts {
+  padding-left: 364px;
 }
 
 .contacts-link {
@@ -126,10 +168,6 @@ body {
   color: var(--basic-white);
 }
 
-.our-advantages ul{
-  list-style-type: none;
-}
-
 .our-advantages ul h2{
   font-style: normal;
   font-weight: bold;
@@ -158,10 +196,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.offer-list{
-  list-style: none;
-}
-
 .team{
   background: #F5F4FA;
 }
@@ -173,10 +207,6 @@ body {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.persons {
-  list-style: none;
 }
 
 .persons h4{
@@ -199,14 +229,6 @@ body {
 }
 
 /* PORTFOLIO SECTION */
-
-.filters-list{
-  list-style: none;
-}
-
-.portfolio-list{
-  list-style: none;
-}
 
 .portfolio h4{
   font-style: normal;
