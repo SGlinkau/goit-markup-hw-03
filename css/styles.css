@@ -27,26 +27,16 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1200;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu {
-  display: flex;
-  padding: 24px 0px 25px 0px;
   border-bottom: 1px solid #ececec;
-}
-
-.navigation,
-.contacts {
-  padding: 8px 0 6px 0px;
-}
-
-.logo {
-  margin-right: 93px;
-}
-
-.navigation ul {
-  display: flex;
 }
 
 .logo{
@@ -68,6 +58,19 @@ body {
   color: var(--basic-white);
 }
 
+.menu-navigation{
+  display: flex;
+  align-items: center;
+}
+
+.navigation{
+  display: flex;
+}
+
+.navigation:first-child{
+  margin-left: 93px;
+}
+
 .navigation-link {
   text-decoration: none;
   color: var(--default-text-color);
@@ -75,9 +78,6 @@ body {
   font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
-}
-
-.navigation-link {
   margin-right: 46px;
 }
 
@@ -91,8 +91,8 @@ body {
   letter-spacing: 0.02em;  
 }
 
-.contacts {
-  padding-left: 364px;
+.navigation-link-last{
+  margin-right: 0px;
 }
 
 .contacts-link {
@@ -102,6 +102,11 @@ body {
   font-weight: 500;
   line-height: 1.142; 
   letter-spacing: 0.02em; 
+}
+
+.contacts-link:first-child{
+  margin-right: 50px;
+  margin-left: 371px;
 }
 
 .contacts-link:hover,
@@ -127,6 +132,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
 }
 
 .button {
