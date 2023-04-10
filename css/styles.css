@@ -29,12 +29,11 @@ body {
 .container {
   width: 1200;
   margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
 }
 
+
+/* =====HEADER SECTION===== */
 .menu {
   border-bottom: 1px solid #ececec;
 }
@@ -59,16 +58,16 @@ body {
 }
 
 .menu-navigation{
+  padding-left: 215px;
+  margin-top: 24px;
+  margin-bottom: 25px;
   display: flex;
   align-items: center;
 }
 
 .navigation{
-  display: flex;
-}
-
-.navigation:first-child{
   margin-left: 93px;
+  display: flex;
 }
 
 .navigation-link {
@@ -92,7 +91,7 @@ body {
 }
 
 .navigation-link-last{
-  margin-right: 0px;
+  margin-right: 215px;
 }
 
 .contacts-link {
@@ -119,6 +118,8 @@ body {
   letter-spacing: 0.02em;    
 }
 
+
+/* =====ORDER SECTION===== */
 .order-container{
   background: #2F303A;
 }
@@ -144,14 +145,13 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--basic-white);
   cursor: pointer;
 }
 
+
+/* =====FILTERS ON PORTFOLIO SITE===== */
 .button-port{
   background: #F5F4FA;
   border-radius: 4px;
@@ -174,6 +174,15 @@ body {
   color: var(--basic-white);
 }
 
+
+/* =====OUR ADVANTAGES SECTION===== */
+.our-advantages{
+  margin-top: 94px;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+}
+
 .our-advantages ul h2{
   font-style: normal;
   font-weight: bold;
@@ -182,6 +191,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--default-text-color);  
+}
+
+.paragraphs{
+  display: flex;
 }
 
 .paragraphs li{
@@ -193,6 +206,16 @@ body {
   color: var(--secondary-text-color);  
 }
 
+.paragraphs-item {
+  margin-right: 30px;
+}
+
+.paragraphs-item-last {
+  margin-right: 0px;
+}
+
+
+/* =====OFFER SECTION===== */
 .offer h2{
   font-style: normal;
   font-weight: 700;
@@ -202,6 +225,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+.offer-list {
+  display: flex;
+  padding: 0px;
+  margin-top: 50px;
+  margin-left: 215px;
+}
+
+
+/* =====TEAM SECTION===== */
 .team{
   background: #F5F4FA;
 }
