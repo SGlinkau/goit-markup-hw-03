@@ -227,11 +227,13 @@ body {
 
 .offer-list {
   display: flex;
+  justify-content: space-around;
   padding: 0px;
   margin-top: 50px;
   margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 94px;
 }
-
 
 /* =====TEAM SECTION===== */
 .team{
@@ -245,9 +247,26 @@ body {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
-.persons h4{
+.persons-list{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-bottom: 94px;
+}
+
+.persons-list-description{
+  background-color: var(--basic-white);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.persons-list h4{
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -256,7 +275,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.persons h5{
+.persons-list h5{
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -266,8 +285,12 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* PORTFOLIO SECTION */
+.persons-list-item{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
+
+/* =====PORTFOLIO SECTION===== */
 .portfolio h4{
   font-style: normal;
   font-weight: 700;
@@ -285,11 +308,17 @@ body {
   color: var(--secondary-text-color); 
 }
 
+
+/* =====FOOTER SECTION===== */
 .footer{
-  position: absolute;
-  width: 1600px;
-  height: 252px;
   background: #2F303A;
+}
+
+.footer-section{
+  margin-right: 215px;
+  margin-left: 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address{
@@ -298,6 +327,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  margin-top: 11px;
   color: var(--basic-white);  
 }
 
@@ -308,6 +338,7 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
 }
 
 .address .contacts-link:hover,
