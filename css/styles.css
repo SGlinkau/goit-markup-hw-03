@@ -122,10 +122,12 @@ body {
 .order-container{
   padding: 200px 0px 200px 0px;
   background: #2F303A;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .order-container h1{
-  max-width: 696px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -133,7 +135,7 @@ body {
   color: var(--basic-white);
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-left: 452px;
+  max-width: 696px;
 }
 
 .order-button {
