@@ -28,7 +28,7 @@ body {
 
 .container {
   width: 1200;
-  margin: 0px 215px 0px 215px;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -58,6 +58,7 @@ body {
 }
 
 .menu-navigation{
+  padding-left: 215px;
   margin-top: 24px;
   margin-bottom: 25px;
   display: flex;
@@ -79,10 +80,6 @@ body {
   margin-right: 46px;
 }
 
-.navigation-link-last{
-  margin-right: 0px;
-}
-
 .navigation-link:hover,
 .navigation-link:focus {
   text-decoration: none;
@@ -91,6 +88,10 @@ body {
   font-size: 14px;  
   line-height: 1.142;
   letter-spacing: 0.02em;  
+}
+
+.navigation-link-last{
+  margin-right: 215px;
 }
 
 .contacts-link {
@@ -120,19 +121,19 @@ body {
 
 /* =====ORDER SECTION===== */
 .order-container{
-  padding: 200px 0px 200px 0px;
   background: #2F303A;
 }
 
 .order-container h1{
-  max-width: 696px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   color: var(--basic-white);
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
 }
 
 .button {
@@ -147,15 +148,13 @@ body {
   letter-spacing: 0.06em;
   color: var(--basic-white);
   cursor: pointer;
-  margin-top: 30px;
-  padding: 10px 41px 10px 42px;
 }
 
 
 /* =====FILTERS ON PORTFOLIO SITE===== */
 .filters-list {
   display: flex;
-  margin-left: 295px;
+  margin-left: 510px;
 }
 
 .button-port{
@@ -190,6 +189,8 @@ body {
 /* =====OUR ADVANTAGES SECTION===== */
 .our-advantages{
   margin-top: 94px;
+  margin-left: 215px;
+  margin-right: 215px;
   margin-bottom: 94px;
 }
 
@@ -220,9 +221,9 @@ body {
   margin-right: 30px;
 }
 
-/* .paragraphs-item-last {
+.paragraphs-item-last {
   margin-right: 0px;
-} */
+}
 
 
 /* =====OFFER SECTION===== */
@@ -238,7 +239,10 @@ body {
 .offer-list {
   display: flex;
   justify-content: space-around;
+  padding: 0px;
   margin-top: 50px;
+  margin-left: 215px;
+  margin-right: 215px;
   margin-bottom: 94px;
 }
 
@@ -261,6 +265,8 @@ body {
 .persons-list{
   display: flex;
   justify-content: space-around;
+  margin-left: 215px;
+  margin-right: 215px;
   padding-bottom: 94px;
 }
 
@@ -300,11 +306,6 @@ body {
 
 
 /* =====PORTFOLIO SECTION===== */
-.portfolio-list-item-description {
-  border: 1px solid #EEEEEE;
-  padding: 20px 0px 20px 20px;
-}
-
 .portfolio h4{
   font-style: normal;
   font-weight: 700;
@@ -325,17 +326,15 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 215px;
+  margin-right: 215px;
   margin-bottom: 94px;
 }
 
 .portfolio-list-item{
   margin-right: 30px;
-  margin-bottom: 30px;
 }
 
-.portfolio-list-item img {
-  display: block;
-}
 
 /* =====FOOTER SECTION===== */
 .footer{
@@ -343,6 +342,8 @@ body {
 }
 
 .footer-section{
+  margin-right: 215px;
+  margin-left: 215px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
