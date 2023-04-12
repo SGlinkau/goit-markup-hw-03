@@ -152,6 +152,10 @@ body {
 
 
 /* =====FILTERS ON PORTFOLIO SITE===== */
+.filters-list {
+  display: flex;;
+}
+
 .button-port{
   background: #F5F4FA;
   border-radius: 4px;
